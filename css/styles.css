@@ -1,0 +1,315 @@
+/* I am not gonna lie, this is the worst style sheet ever written
+on the face of earth, It works, and I know why But style is not there to be found
+anywhere in this code.
+
+One day, if that day may come, I will refactor the code */
+
+/*#465532*/
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Hachi Maru Pop', cursive;
+    font-weight: 700;
+}
+
+.text-shadow {
+    text-shadow: 4px 4px #000;
+}
+
+#title {
+    background:linear-gradient(rgba(0, 0, 0, 0.527), rgba(39, 34, 34, 0.589)), url("../images/background.svg");
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+
+.primary-color-buttons{
+    background-color: #4b6627;
+    border: none;
+}
+
+.primary-color-buttons:hover {
+    background-color: #2a3a16;
+    color: #fff;
+    border: none;
+}
+
+.about{
+  color: #f8f8f8;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 5rem;
+}
+
+h3 {
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 2rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+
+}
+
+#nav-link-id{
+    color: #fff;
+    font-size: 25px;
+}
+
+#nav-link-id:hover{
+    color: rgb(150, 129, 129);
+}
+
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-img {
+    width: 80%;
+    position: absolute;
+    right: 1%;
+}
+
+#skills {
+    padding: 7% 15%;
+    background-color: #fff;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.heading__skills{
+    color: #000000;}
+
+.icon {
+    color: #4b6627;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #000;
+}
+
+.projects{
+    background:linear-gradient(rgba(0, 0, 0, 0.527), rgba(39, 34, 34, 0.589)), url("../images/background.svg");
+    padding: 5rem 7.5rem;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.footer-svg{
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+.project__container {
+    margin-bottom: 3rem;
+    padding: 1rem;
+}
+
+.project__heading{
+    /* padding: 1rem; */
+    color: white;
+    letter-spacing: 10px;
+}
+
+.project__info{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.project-image-one {
+    border-radius: 10px;
+
+}
+a{
+    text-decoration: none;
+}
+
+.project__buttons{
+    padding: 1rem 2rem;
+    margin-right: 2rem;
+    box-shadow: 0 5px 5px rgba(255, 255, 255, 0.397);
+    background-color: #4b6627;
+    border: none;
+}
+
+.project__buttons:hover{
+    background-color: #384d1d;
+    color: #fff;
+    border: none;
+}
+
+
+.text-big{
+    font-size: 20px;
+}
+
+.our-padding{
+    padding: 20px;
+    margin: 0;
+}
+
+#our-headings{
+    color: white;
+    margin: 20px;
+}
+
+
+
+.margin__bottom__2rem{
+    margin-bottom: 2rem;
+}
+
+
+@media (max-width: 1028px){
+
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+        /* border: 2px solid #fff; */
+        padding: 20px;
+        }
+}
+
+.top-head{
+    letter-spacing: 5px;
+}
+
+.bottom-head{
+    letter-spacing: 20px;
+    font-size: 5rem;
+}
+
+
+#bottom-heading {
+   padding: 1% 15% ;
+   font-size: 1.56rem;
+   line-height: 1.5;
+   margin-top: 50px;
+}
+
+.margin-top{
+    margin-top: 1rem;
+}
+
+#contact {
+    text-align: center;
+    padding: 5rem;
+    /* background-color: #2f2519; */
+    font-size: 30px;
+    margin-bottom: -20px;
+}
+
+.pad-btn{
+    padding: 1rem 3rem;
+    font-size: 20px;
+}
+
+.footer-icon {
+    margin: 10px 40px;
+    color: #4b6627;
+    font-size: 3rem;
+    padding: 10px;
+}
+
+.footer-icon:hover {
+    color: #384d1d;
+
+}
+
+footer{
+    padding: 3rem;
+    margin-bottom: 3rem;
+}
+
+/* project */
+
+.project{
+  border: 3px solid;
+  border-radius: 15px 50px;
+  border-color: white;
+  text-align: center;
+  color: white;
+}
+
+li {
+  font-size: 1.3rem;
+}
+
+
+
+.container {
+margin-bottom: 10px
+}
+
+
+.project-container{
+    margin-bottom: 2rem;
+    
+}
+  
+.contact-me-image{
+    height: 300px;
+    margin: auto;
+}
