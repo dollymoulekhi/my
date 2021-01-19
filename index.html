@@ -9,10 +9,13 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <!-- private css -->
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/logo.png">
   <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Noto+Sans+KR:wght@400;500;700&display=swap"
     rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
   <!-- javascript and jQuery reponsible for any behaviour of our website -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
@@ -33,7 +36,11 @@
       <!-- Nav Bar -->
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-dark">
-          <a class="navbar-brand" href="index.html">🚀</a>
+          <a class="navbar-brand" href="index.html">
+            <div class="logo-container">
+              <img src="images/logo.png" class="img-fluid logo-img" alt="logo">
+            </div>
+          </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -42,7 +49,8 @@
             <ul class="navbar-nav ml-auto">
 
               <li class="nav-item">
-                <a class="nav-link text-big" id="nav-link-id" href="#cta">Contact</a>
+                <a class="nav-link text-big cursor-pointer" id="nav-link-id"
+                  onclick="location.href='mailto:dollymoulekhi97@gmail.com';">Contact</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-big" id="nav-link-id" href="#skills">Skills</a>
@@ -64,7 +72,7 @@
             <p class="about">Aspiring "Data Analyst" obsessed with Probelm solvings, and getting meaningful insights
               from data</p>
 
-            <a href="resume_dolly.pdf" download><button type="button" class="btn btn-lg btn-dark download-button pad-btn"><i
+            <a href="resume.pdf" download><button type="button" class="btn btn-lg btn-dark download-button pad-btn"><i
                   class="far fa-file"></i> Resume</button></a>
             <button type="button" class="btn btn-lg btn-primary download-button primary-color-buttons pad-btn"
               onclick="location.href='mailto:dollymoulekhi97@gmail.com';"><i class="fas fa-envelope"></i> Contact
@@ -174,13 +182,10 @@
         </div>
       </div>
     </section>
-    <a href=<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-      <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="dmoulekhi"><a class="LI-simple-link" href='https://in.linkedin.com/in/dmoulekhi/en-us?trk=profile-badge'>Dolly Moulekhi</a></div>
- 
     <footer id="contact">
       <h1>Social Links</h1>
-   <a herf="https://www.linkedin.com/in/dmoulekhi" class="footer-icon"><i class="fab fa-linkedin"></i></a>
-   <a href=" https://github.com/dollymoulekhi" class="footer-icon"><i class="fab fa-git"></i></a>
+      <a href="https://www.linkedin.com/in/dollymoulekhi" class="footer-icon"><i class="fab fa-linkedin""></i></a>
+      <a href=" https://github.com/dollymoulekhi" class="footer-icon"><i class="fab fa-git"></i></a>
       <p class="margin-top"><i class="far fa-copyright"></i> 2021 </p>
     </footer>
   </main>
