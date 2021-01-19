@@ -1,11 +1,3 @@
-/* I am not gonna lie, this is the worst style sheet ever written
-on the face of earth, It works, and I know why But style is not there to be found
-anywhere in this code.
-
-One day, if that day may come, I will refactor the code */
-
-/*#465532*/
-
 html {
     overflow: scroll;
     overflow-x: hidden;
@@ -17,22 +9,46 @@ body{
 }
 
 h1, h2, h3 {
-    font-family: 'Hachi Maru Pop', cursive;
-    font-weight: 700;
+    font-family: 'Potta One', cursive;
 }
 
 .text-shadow {
     text-shadow: 4px 4px #000;
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
+
 #title {
-    background:linear-gradient(rgba(0, 0, 0, 0.527), rgba(39, 34, 34, 0.589)), url("../images/background.svg");
+    background:linear-gradient(rgba(0, 0, 0, 0.727), rgba(39, 34, 34, 0.689)), url("../images/background.svg");
     color: #fff;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 
 
+}
+
+.logo-container {
+    background-color: #4b6627;
+    clip-path: circle(50% at 50% 50%);}
+
+.logo-img {
+    height: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+    .logo-img {
+        height: 75px;
+    } 
+}
+
+
+@media screen and (max-width: 768px) {
+    .logo-img {
+        height: 50px;
+    } 
 }
 
 .primary-color-buttons{
